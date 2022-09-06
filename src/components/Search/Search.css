@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin: 20px;
+}
+.sector {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-left: 50px;
+}
+.btn {
+    background: linear-gradient(to right,#8ca6db, #b993d6 ); 
+    width: 100px;
+    border-radius: 50px;
+}
+.button {
+    background: linear-gradient(to right,#b993d6, #8ca6db ); 
+    width: 100px;
+    border-radius: 50px;
+    border: solid;
+}
+.data-sector {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card-products {
+    display: flex; 
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 10px;
+    box-shadow: 0px 7px 25px rgba(130, 130, 130, 0.80);
+}
+.card-item {
+    width: 280px;
+    height: 340px;
+    border-radius: 6px 6px 0 0;
+}
+.search-block {
+    display: flex;
+    flex-direction: column;
+}
+.search-input {
+    display: flex;
+    color: #222;
+    background: linear-gradient(to right, #b993d6, #8ca6db); 
+    box-shadow: 0px 7px 25px rgba(130, 130, 130, 0.80);
+    border-radius: 50px;
+    width: 500px;
+    height: 39px;
+    font-family: "Raleway", sans-serif;
+}
+.search-input input, button {
+    outline: none;
+    border: none;
+    background: transparent;
+    font-family: "Raleway", sans-serif;
+    color: inherit;
+    font-size: 16px;
+}
+.search-input input {
+    font-family: "Raleway", sans-serif;
+    width: 420px;
+}
+.search-input button {
+    padding: 0 15px;
+}
